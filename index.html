@@ -35,63 +35,69 @@
 </head>
 <body data-spy="scroll" data-target="#navbarId">
 
-<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top" id="navbarId">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+<header>
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top" id="navbarId">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <a class="navbar-brand" href="#">
-        <img src="./image/logo.jpg" class="d-inline-block align-top">
-        <span id="brand">Jean-Marie Paul</span>
-    </a>
+        <a class="navbar-brand" href="#">
+            <!--<img src="./images/logo.jpg" class="d-inline-block align-top">-->
+            <span id="brand">Jean-Marie Paul</span>
+            <span class="navbar-text">   || 900 440 442</span>
+        </a>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-                <a class="nav-link" href="#inicio">Inicio<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#servicios">Servicios</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#libro">Libro</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contacto">Contacto</a>
-            </li>
-        </ul>
-    </div>
-</nav>
 
-<div class="background-cover"  id="inicio">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#inicio">Inicio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servicios">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#libro">Libro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#prensa">Prensa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+</header>
+
+<!--MAIN-->
+
+<main class="background-cover"  id="inicio">
     <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-11">
+                <h2>Afinador Técnico de Pianos  en Málaga</h2>
+                <p>Profesor de "Afinación y reglaje del piano" en el Conservatorio Superior de Música de Málaga.
+                    He sido afinador del Teatro Cervantes y de la Orquesta Sinfónica de Málaga durante 26 años.
+                    Si necesita afinar su piano o realizar reparaciones, puede contactarme aquí:</p>
+                <h2 class="text-center"><i class="fa fa-phone-square" aria-hidden="true"></i> 900 440 442</h2>
 
-        <!-- HEADER -->
-
-
-
-        <main>
-            <h2>Afinador Técnico de Pianos en Málaga</h2>
-            <p>Profesor de "Afinación y reglaje del piano" en el Conservatorio Superior de
-                Música de Málaga. He sido afinador del Teatro Cervantes y de la Orquesta
-                Sinfónica de Málaga durante 26 años. Si necesita afinar su piano o realizar reparaciones, puede
-                contactarme aquí:</p>
-            <h2 class="text-center"><i class="fa fa-phone-square" aria-hidden="true"></i> 900 440 442</h2>
-
-        </main>
+            </div>
+        </div>
     </div>
-</div>
+</main>
 
 
 
 <!--SERVICES-->
 
 <div class="container" id="servicios">
-    <h2 class="tittles">SERVICIOS</h2>
+    <h2 class="titleSection">SERVICIOS</h2>
     <section class="row">
-        <div class="col-md-6 col-sm-12 col-xs-12">
+        <div class="col-md-6 col-sm-12 col-12">
 
             <div class="card text-center">
                 <div class="card-header">
@@ -115,7 +121,7 @@
             </div>
         </div> <!--COL-->
 
-        <div class="col-md-6  col-sm-12 col-xs-12">
+        <div class="col-md-6 col-sm-12 col-12">
 
             <div class="card text-center">
                 <div class="card-header">
@@ -149,14 +155,14 @@
 
     <div class="container">
         <section class="row">
-            <div class="col-md-9  col-sm-12 col-xs-12">
+            <div class="col-md-9  col-sm-12 col-12">
                 <div class="bookTitle">
                     <a href="http://www.sibemol.es/index.php?id_product=125&controller=product"><h2>
                         <i>Reglaje y Afinación del piano</i></h2></a>
                     <h3>El nuevo libro de Jean-Marie Paul</h3>
                 </div>
 
-                <div class="bookP">
+                <div>
                     <p>Jean-Marie Paul, profesor de Reglaje y afinación de piano en el Conservatorio Superior de Música de
                         Málaga, explica en este libro de forma clara, lógica y didáctica los fundamentos del reglaje del
                         piano y de la teoría de la afinación</p>
@@ -169,13 +175,106 @@
             </div> <!--COL-->
 
 
-            <div class="col-md-3  col-sm-12 col-xs-12 text-center">
+            <div class="col-md-3  col-sm-12 col-12 text-center">
                 <a target="_blank" href="http://www.sibemol.es/index.php?id_product=125&controller=product">
-                    <img class="bookImg img-fluid img-thumbnail" src="./image/libro_opt.jpg"
+                    <img class="bookImg img-fluid img-thumbnail" src="./images/libro_opt.jpg"
                          alt="Libro de Jean-Marie Paul" id="bookImg"></a>
-
             </div>
         </section>
+    </div>
+</div>
+
+<!--PRENSA-->
+
+<div id="prensa">
+    <div class="container">
+        <h2 class="titleSection"><i class="fa fa-newspaper-o" aria-hidden="true"></i> PRENSA</h2>
+        <div class="row">
+
+            <!--FIRST COLUMN-->
+            <div class="col-md-6 col-sm-12 col-12">
+                <div class="row align-items-center">
+                    <div class="col-md-3 col-sm-3 col-3">
+                        <a href="prensa/melilla.pdf" target="_blank">
+                            <img class="imgPrensa img-fluid" src="images/1_opt.jpg" alt="Trabajando en un piano"></a>
+                    </div>
+
+                    <div class="col-md-9 col-sm-9 col-9">
+                        <a href="prensa/melilla.pdf" target="_blank"><h5>Un afinador de pianos de ida y vuelta</h5></a>
+                        <p>"Jean-Marie Paul se desplaza todos los meses desde Málaga a Melilla."</p>
+                    </div>
+                </div> <!--SECOND ROW-->
+
+
+                <div class="row align-items-center">
+                    <div class="col-md-3 col-sm-3 col-3">
+                        <a href="prensa/articulo.pdf" target="_blank">
+                            <img class="imgPrensa img-fluid" src="images/2_opt.jpg" alt="En el piano"></a>
+                    </div>
+
+                    <div class="col-md-9 col-sm-9 col-9">
+                        <a href="prensa/articulo.pdf" target="_blank"><h5>El doctor de los pianos</h5></a>
+                        <p>"Para afinar un piano hay que tener unas manos artesanales y un oído de excepción."</p>
+                    </div>
+                </div> <!--SECOND ROW-->
+
+
+                <div class="row align-items-center">
+                    <div class="col-md-3 col-sm-3 col-3">
+                        <a href="prensa/erard.pdf" target="_blank">
+                            <img class="imgPrensa img-fluid" src="images/3_opt.jpg" alt="Arreglando el mecanismo"></a>
+                    </div>
+
+                    <div class="col-md-9 col-sm-9 col-9">
+                        <a href="prensa/erard.pdf" target="_blank"><h5>La restauración de un piano Erard de 1869</h5></a>
+                        <p>"La restauración de esta pieza ha conseguido devolver su timbre original."</p>
+                    </div>
+                </div> <!--SECOND ROW-->
+            </div>  <!--FIRST COL-->
+
+
+            <!--SECOND COLUMN-->
+
+            <div class="col-md-6 col-sm-12 col-12">
+                <div class="row align-items-center">
+                    <div class="col-md-3 col-sm-3 col-3">
+                        <a href="prensa/malagahoyarticulo.jpg" target="_blank">
+                            <img class="imgPrensa img-fluid" src="images/4_opt.jpg" alt="Reconstruyendo piezas"></a>
+                    </div>
+
+                    <div class="col-md-9 col-sm-9 col-9">
+                        <a href="prensa/malagahoyarticulo.jpg" target="_blank"><h5>Suma de esfuerzos para restaurar un piano</h5></a>
+                        <p>"La intervención fue encargada al restaurador Jean-Marie Paul que acometió un minucioso proceso"</p>
+                    </div>
+                </div> <!--SECOND ROW-->
+
+
+                <div class="row align-items-center">
+                    <div class="col-md-3 col-sm-3 col-3">
+                        <a href="prensa/opinionarticulo1.jpg" target="_blank">
+                            <img class="imgPrensa img-fluid" src="images/5_opt.jpg" alt="Usando herramientas"></a>
+                    </div>
+
+                    <div class="col-md-9 col-sm-9 col-9">
+                        <a href="prensa/opinionarticulo1.jpg" target="_blank"><h5>El piano Erard luce su belleza original</h5></a>
+                        <p>"El presidente del MIMMA destacó la gran labor realizada sobre el Erard Gran Cola"</p>
+                    </div>
+                </div> <!--SECOND ROW-->
+
+
+                <div class="row align-items-center">
+                    <div class="col-md-3 col-sm-3 col-3">
+                        <a href="prensa/opinionarticulo2.jpg" target="_blank">
+                            <img class="imgPrensa img-fluid" src="images/6_opt.jpg" alt="Restauración piano"></a>
+                    </div>
+
+                    <div class="col-md-9 col-sm-9 col-9">
+                        <a href="prensa/opinionarticulo2.jpg" target="_blank"><h5>Restaurando con las médidas especiales de la época</h5></a>
+                        <p>"Se han cambiado las cuerdas, martillos y clavijas"</p>
+                    </div>
+                </div> <!--SECOND ROW-->
+            </div>  <!--FIRST COL-->
+        </div>
     </div>
 </div>
 
@@ -184,30 +283,21 @@
 <!-- CONTACT -->
 
 <div id="contacto" class="container">
-    <h2 class="tittles">CONTACTO</h2>
-    <section class="row">
+    <h2 class="titleSection">CONTACTO</h2>
+    <div class="row align-items-center">
 
-
-        <div class="col-md-4  col-sm-12 col-xs-12 text-center">
-            <img class="profilePic img-fluid" src="./image/profile.jpg" alt="Jean-Marie Paul">
-
+        <div class="col-md-8  col-sm-12 col-12">
+            <p>Puede contactar conmigo a través de los siguientes medios:</p>
+            <h2><i class="fa fa-phone-square" aria-hidden="true"></i> 900 440 442 - <span>(Teléfono gratuito)</span></h2>
+            <h2><i class="fa fa-mobile" aria-hidden="true"></i> 607 669 894 - <span>(Móvil)</span></h2>
+            <h3><i class="fa fa-envelope" aria-hidden="true"></i> <a>jmpaul@afinadordepianos.net</a><span> - (Correo electrónico)</span></h3>
         </div> <!--COL-->
 
 
-        <div class="col-md-8  col-sm-12 col-xs-12 text-center">
-
-            <h2><i class="fa fa-phone-square" aria-hidden="true"></i> 900 440 442</h2>
-            <p class="smallPad">(Teléfono gratuito)</p>
-            <h2><i class="fa fa-mobile" aria-hidden="true"></i> 607 669 894</h2>
-            <p class="smallPad">(Móvil)</p>
-            <p><i class="fa fa-envelope" aria-hidden="true"></i> <b> jmpaul@afinadordepianos.net</b></p>
-            <p class="smallPad">(Correo electrónico)</p>
-
-
+        <div class="col-md-4  col-sm-12 col-12 text-center">
+            <img class="profilePic img-fluid" src="./images/profile.jpg" alt="Jean-Marie Paul">
         </div> <!--COL-->
-
-    </section>
-
+    </div>
 </div>
 
 <!--FOOTER-->
