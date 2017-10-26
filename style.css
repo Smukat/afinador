@@ -52,6 +52,7 @@ nav li a:hover {
     background-color: #2DA5EE;
 }
 
+
 .bg-inverse {
     background-color: #000000 !important;
 }
@@ -84,6 +85,11 @@ main {
     padding-bottom: 1.5em;
 }
 
+#inicio a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 
 /*SERVICES*/
 
@@ -114,6 +120,11 @@ main {
 
 #servicios {
     padding-bottom: 4%;
+}
+
+.widthRepar {
+    width: 70%;
+    margin: 0 auto;
 }
 
 
@@ -187,6 +198,11 @@ main {
     font-size: 0.6em;
 }
 
+#contacto a {
+    text-decoration: none;
+    color: #262625;
+}
+
 /*FOOTER*/
 
 #footer {
@@ -233,6 +249,10 @@ main {
     /*SERVICES*/
     .card-text {
         line-height: 2.3em;
+    }
+
+    .widthRepar {
+        width: 90%;
     }
 
     /*CONTACT*/
