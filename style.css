@@ -48,6 +48,25 @@ small { font-size: 0.833em; }
 nav {
     font-size: 1.3em;
 }
+
+#navbarDropdown {
+    color: #2DA5EE;
+}
+#navbarDropdown:hover{
+    background-color: inherit;
+}
+
+.dropdown-menu {
+    min-width: 0px !important;
+    padding: 0;
+}
+
+.dropdown-item {
+    width: 100%;
+    background-color: #030303;
+    color: #2DA5EE;
+}
+
 nav li a:hover {
     background-color: #2DA5EE;
 }
@@ -58,7 +77,9 @@ nav li a:hover {
 }
 
 
+
 /*MAIN*/
+
 
 .background-cover {
 
@@ -68,8 +89,8 @@ nav li a:hover {
 }
 
 main {
-    padding-top: 12rem;
-    padding-bottom: 8rem;
+    padding-top: 16rem;
+    padding-bottom: 16rem;
     color: #FFFFFF;
 }
 
@@ -81,7 +102,7 @@ main {
 
 }
 
-#inicio p {
+#inicio p, #inicio h4 {
     padding-bottom: 1.5em;
 }
 
